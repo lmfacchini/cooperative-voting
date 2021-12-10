@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /cooperative-voting
+  port: 8080
+spring:
+  data:
+    mongodb:
+      database: cooperative-voting
+      host: kami
+  cache:
+    type: redis
+  redis:
+    host: "redis"
+    port: 6379
+
